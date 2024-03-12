@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: sbk
+  datasource:
+    url: jdbc:postgresql://${DATASOURCE_HOST:localhost}:5444/db_sbk #внешний порт контейнера из compose-env.yaml/название_БД
+    username: postgres
+    password: postgres
